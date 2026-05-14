@@ -1,0 +1,13 @@
+[INFO] build-db: Processing 10_polystyrene: 10_polystyrene.lmp + 10_polystyrene.pdb
+[INFO] build-db:   10_polystyrene: 162 atoms, 171 bonds, 300 angles, 471 dihedrals, 140 impropers
+[INFO] build-db: Database saved to polystyrene.db
+[INFO] build-db: Samples: 1
+[INFO] build-db: Processed: 162 atoms, 171 bonds, 300 angles, 471 dihedrals, 140 impropers
+[INFO] build-db: Hop3 atom types: 43
+[INFO] build-db: Hop2 atom types: 26
+[INFO] build-db: Hop1 atom types: 14
+[INFO] build-db: Hop0 atom types: 6
+[INFO] build-db: Bond types: 11
+[INFO] build-db: Angle types: 23
+[INFO] build-db: Dihedral types: 34
+[INFO] build-db: Improper types: 13

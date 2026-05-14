@@ -1,0 +1,17 @@
+[INFO] build-db: Processing 4_ps_4_pmma: 4_ps_4_pmma.lmp (lmp only)
+[INFO] build-db:   4_ps_4_pmma: 126 atoms, 129 bonds, 232 angles, 335 dihedrals, 124 impropers
+[INFO] build-db: Processing 5_pmma: 5_pmma.lmp (lmp only)
+[INFO] build-db:   5_pmma: 77 atoms, 76 bonds, 140 angles, 181 dihedrals, 85 impropers
+[INFO] build-db: Processing 5_polystyrene: 5_polystyrene.lmp (lmp only)
+[INFO] build-db:   5_polystyrene: 82 atoms, 86 bonds, 150 angles, 231 dihedrals, 70 impropers
+[INFO] build-db: Database saved to ps_pmma.db
+[INFO] build-db: Samples: 3
+[INFO] build-db: Processed: 285 atoms, 291 bonds, 522 angles, 747 dihedrals, 279 impropers
+[INFO] build-db: Hop3 atom types: 88
+[INFO] build-db: Hop2 atom types: 52
+[INFO] build-db: Hop1 atom types: 25
+[INFO] build-db: Hop0 atom types: 11
+[INFO] build-db: Bond types: 19
+[INFO] build-db: Angle types: 43
+[INFO] build-db: Dihedral types: 67
+[INFO] build-db: Improper types: 24
