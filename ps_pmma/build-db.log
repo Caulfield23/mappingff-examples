@@ -7,8 +7,8 @@
 [INFO] build-db: Database saved to ps_pmma.db
 [INFO] build-db: Samples: 3
 [INFO] build-db: Processed: 285 atoms, 291 bonds, 522 angles, 747 dihedrals, 279 impropers
-[INFO] build-db: Hop3 atom types: 88
-[INFO] build-db: Hop2 atom types: 52
+[INFO] build-db: Hop3 atom types: 72
+[INFO] build-db: Hop2 atom types: 48
 [INFO] build-db: Hop1 atom types: 25
 [INFO] build-db: Hop0 atom types: 11
 [INFO] build-db: Bond types: 19
