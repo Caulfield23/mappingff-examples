@@ -7,10 +7,10 @@
 set -e
 
 # Step 1: Build parameter database from styrene and MMA samples
-mappingff build-db samples/ -d ps_pmma.db
+mappingff build samples/ -d ps_pmma.db
 
 # Step 2: Parameterize 50-b-50 PS-PMMA diblock copolymer
-mappingff parameterize 50_ps_50_pmma.mol -d ps_pmma.db -c 0.0 -v
+mappingff par 50_ps_50_pmma.mol -d ps_pmma.db -c 0.0 -v
 
 # Step 3: Parameterize 5-block alternating copolymer
-mappingff parameterize 5_alt_20_ps_20_pmma.mol -d ps_pmma.db -c 0.0 -v
+mappingff par 5_alt_20_ps_20_pmma.mol -d ps_pmma.db -c 0.0 -v

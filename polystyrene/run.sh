@@ -4,7 +4,7 @@
 set -e
 
 # Step 1: Build parameter database
-mappingff build-db samples/ -d polystyrene.db
+mappingff build samples/ -d polystyrene.db
 
 # Step 2: Parameterize target molecule
-mappingff parameterize 200_polystyrene.mol -d polystyrene.db -c 0.0 -v
+mappingff par 200_polystyrene.mol -d polystyrene.db -c 0.0 -v
