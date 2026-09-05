@@ -3221,4 +3221,4 @@
 [INFO] parameterize:   hop0 matches: 0
 [INFO] parameterize:   no match: 0
 [INFO] parameterize: Total charge: 0.000000 (before: -0.319262, after step1: -0.317705, after step2: 0.000000, target: 0.0)
-[INFO] parameterize: Output written to 200_polystyrene.lmp
+[INFO] parameterize: Output written to 200_polystyrene.data

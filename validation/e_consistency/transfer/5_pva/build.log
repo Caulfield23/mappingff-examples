@@ -1,0 +1,13 @@
+[INFO] build-db: Processing 5_pva: 5_pva.lmp (lmp only)
+[INFO] build-db:   5_pva: 37 atoms, 36 bonds, 65 angles, 96 dihedrals, 40 impropers
+[INFO] build-db: Database saved to 5_pva.db
+[INFO] build-db: Samples: 1
+[INFO] build-db: Processed: 37 atoms, 36 bonds, 65 angles, 96 dihedrals, 40 impropers
+[INFO] build-db: Hop3 atom types: 25
+[INFO] build-db: Hop2 atom types: 19
+[INFO] build-db: Hop1 atom types: 12
+[INFO] build-db: Hop0 atom types: 7
+[INFO] build-db: Bond types: 10
+[INFO] build-db: Angle types: 20
+[INFO] build-db: Dihedral types: 23
+[INFO] build-db: Improper types: 9

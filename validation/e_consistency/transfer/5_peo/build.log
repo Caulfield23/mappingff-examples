@@ -1,0 +1,15 @@
+[INFO] build-db: Processing 5_peo: 5_peo.lmp (lmp only)
+[INFO] build-db:   5_peo: 38 atoms, 37 bonds, 66 angles, 75 dihedrals, 40 impropers
+[INFO] build-db: Processing 5_peo: 5_peo.data (lmp only)
+[INFO] build-db:   5_peo: 38 atoms, 37 bonds, 66 angles, 75 dihedrals, 40 impropers
+[INFO] build-db: Database saved to 5_peo.db
+[INFO] build-db: Samples: 2
+[INFO] build-db: Processed: 76 atoms, 74 bonds, 132 angles, 150 dihedrals, 80 impropers
+[INFO] build-db: Hop3 atom types: 10
+[INFO] build-db: Hop2 atom types: 8
+[INFO] build-db: Hop1 atom types: 6
+[INFO] build-db: Hop0 atom types: 5
+[INFO] build-db: Bond types: 5
+[INFO] build-db: Angle types: 8
+[INFO] build-db: Dihedral types: 9
+[INFO] build-db: Improper types: 2

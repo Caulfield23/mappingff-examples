@@ -1,0 +1,99 @@
+[INFO] parameterize: Database loaded from 5_pmma.db
+[DEBUG] parameterize:   Hop3 atom types: 33
+[DEBUG] parameterize:   Hop2 atom types: 24
+[DEBUG] parameterize:   Hop1 atom types: 15
+[DEBUG] parameterize:   Hop0 atom types: 9
+[DEBUG] parameterize:   Bond types: 13
+[DEBUG] parameterize:   Angle types: 27
+[DEBUG] parameterize:   Dihedral types: 35
+[DEBUG] parameterize:   Improper types: 13
+[INFO] parameterize: Parameterizing molecule: 5_pmma.pdb
+[DEBUG] parameterize:   Atom 1: element=O, lammps_type=1
+[DEBUG] parameterize:   Atom 2: element=C, lammps_type=2
+[DEBUG] parameterize:   Atom 3: element=C, lammps_type=3
+[DEBUG] parameterize:   Atom 4: element=O, lammps_type=4
+[DEBUG] parameterize:   Atom 5: element=C, lammps_type=5
+[DEBUG] parameterize:   Atom 6: element=C, lammps_type=6
+[DEBUG] parameterize:   Atom 7: element=C, lammps_type=7
+[DEBUG] parameterize:   Atom 8: element=C, lammps_type=8
+[DEBUG] parameterize:   Atom 9: element=C, lammps_type=9
+[DEBUG] parameterize:   Atom 10: element=H, lammps_type=10
+[DEBUG] parameterize:   Atom 11: element=H, lammps_type=10
+[DEBUG] parameterize:   Atom 12: element=C, lammps_type=11
+[DEBUG] parameterize:   Atom 13: element=C, lammps_type=12
+[DEBUG] parameterize:   Atom 14: element=C, lammps_type=13
+[DEBUG] parameterize:   Atom 15: element=C, lammps_type=14
+[DEBUG] parameterize:   Atom 16: element=H, lammps_type=10
+[DEBUG] parameterize:   Atom 17: element=H, lammps_type=10
+[DEBUG] parameterize:   Atom 18: element=H, lammps_type=15
+[DEBUG] parameterize:   Atom 19: element=H, lammps_type=15
+[DEBUG] parameterize:   Atom 20: element=H, lammps_type=15
+[DEBUG] parameterize:   Atom 21: element=O, lammps_type=4
+[DEBUG] parameterize:   Atom 22: element=O, lammps_type=1
+[DEBUG] parameterize:   Atom 23: element=C, lammps_type=16
+[DEBUG] parameterize:   Atom 24: element=C, lammps_type=12
+[DEBUG] parameterize:   Atom 25: element=C, lammps_type=13
+[DEBUG] parameterize:   Atom 26: element=C, lammps_type=17
+[DEBUG] parameterize:   Atom 27: element=H, lammps_type=18
+[DEBUG] parameterize:   Atom 28: element=H, lammps_type=18
+[DEBUG] parameterize:   Atom 29: element=H, lammps_type=15
+[DEBUG] parameterize:   Atom 30: element=H, lammps_type=15
+[DEBUG] parameterize:   Atom 31: element=H, lammps_type=15
+[DEBUG] parameterize:   Atom 32: element=O, lammps_type=4
+[DEBUG] parameterize:   Atom 33: element=O, lammps_type=1
+[DEBUG] parameterize:   Atom 34: element=C, lammps_type=19
+[DEBUG] parameterize:   Atom 35: element=C, lammps_type=19
+[DEBUG] parameterize:   Atom 36: element=C, lammps_type=20
+[DEBUG] parameterize:   Atom 37: element=C, lammps_type=8
+[DEBUG] parameterize:   Atom 38: element=H, lammps_type=21
+[DEBUG] parameterize:   Atom 39: element=H, lammps_type=21
+[DEBUG] parameterize:   Atom 40: element=H, lammps_type=21
+[DEBUG] parameterize:   Atom 41: element=H, lammps_type=21
+[DEBUG] parameterize:   Atom 42: element=H, lammps_type=21
+[DEBUG] parameterize:   Atom 43: element=H, lammps_type=21
+[DEBUG] parameterize:   Atom 44: element=O, lammps_type=22
+[DEBUG] parameterize:   Atom 45: element=O, lammps_type=23
+[DEBUG] parameterize:   Atom 46: element=C, lammps_type=8
+[DEBUG] parameterize:   Atom 47: element=H, lammps_type=24
+[DEBUG] parameterize:   Atom 48: element=H, lammps_type=24
+[DEBUG] parameterize:   Atom 49: element=H, lammps_type=24
+[DEBUG] parameterize:   Atom 50: element=H, lammps_type=24
+[DEBUG] parameterize:   Atom 51: element=H, lammps_type=24
+[DEBUG] parameterize:   Atom 52: element=H, lammps_type=24
+[DEBUG] parameterize:   Atom 53: element=C, lammps_type=8
+[DEBUG] parameterize:   Atom 54: element=H, lammps_type=24
+[DEBUG] parameterize:   Atom 55: element=H, lammps_type=24
+[DEBUG] parameterize:   Atom 56: element=H, lammps_type=24
+[DEBUG] parameterize:   Atom 57: element=C, lammps_type=25
+[DEBUG] parameterize:   Atom 58: element=H, lammps_type=26
+[DEBUG] parameterize:   Atom 59: element=H, lammps_type=26
+[DEBUG] parameterize:   Atom 60: element=C, lammps_type=27
+[DEBUG] parameterize:   Atom 61: element=C, lammps_type=28
+[DEBUG] parameterize:   Atom 62: element=H, lammps_type=29
+[DEBUG] parameterize:   Atom 63: element=H, lammps_type=30
+[DEBUG] parameterize:   Atom 64: element=H, lammps_type=30
+[DEBUG] parameterize:   Atom 65: element=H, lammps_type=30
+[DEBUG] parameterize:   Atom 66: element=O, lammps_type=31
+[DEBUG] parameterize:   Atom 67: element=O, lammps_type=32
+[DEBUG] parameterize:   Atom 68: element=C, lammps_type=33
+[DEBUG] parameterize:   Atom 69: element=H, lammps_type=24
+[DEBUG] parameterize:   Atom 70: element=H, lammps_type=24
+[DEBUG] parameterize:   Atom 71: element=H, lammps_type=24
+[DEBUG] parameterize:   Atom 72: element=H, lammps_type=15
+[DEBUG] parameterize:   Atom 73: element=H, lammps_type=15
+[DEBUG] parameterize:   Atom 74: element=H, lammps_type=15
+[DEBUG] parameterize:   Atom 75: element=H, lammps_type=24
+[DEBUG] parameterize:   Atom 76: element=H, lammps_type=24
+[DEBUG] parameterize:   Atom 77: element=H, lammps_type=24
+[INFO] parameterize: Bond parameters: 76 bonds, 6 unique types, 0 no match
+[INFO] parameterize: Angle parameters: 140 angles, 9 unique types, 0 no match
+[INFO] parameterize: Dihedral parameters: 181 dihedrals, 10 unique types, 0 no match
+[INFO] parameterize: Improper parameters: 5 impropers, 1 unique types, 0 no match
+[INFO] parameterize: Atom type assignment: 77 atoms, 33 unique types, 0 no match
+[INFO] parameterize:   hop3 matches: 77
+[INFO] parameterize:   hop2 matches: 0
+[INFO] parameterize:   hop1 matches: 0
+[INFO] parameterize:   hop0 matches: 0
+[INFO] parameterize:   no match: 0
+[INFO] parameterize: Total charge: -0.000000 (before: -0.000304, after step1: -0.000278, after step2: -0.000000, target: 0.0)
+[INFO] parameterize: Output written to 5_pmma.data

@@ -1,0 +1,16 @@
+tolerance 2.2
+filetype xyz
+output packed.xyz
+seed 1214
+
+structure ps_3arm.xyz
+  number 1
+  center
+  fixed 0.0 0.0 0.0 0.0 0.0 0.0
+end structure
+
+structure cyclohexane.xyz
+  number 4500
+  center
+  inside box -58.0 -58.0 -58.0 58.0 58.0 58.0
+end structure

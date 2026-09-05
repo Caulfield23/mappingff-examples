@@ -1,0 +1,13 @@
+[INFO] build-db: Processing 7_ps: 7_ps.lmp (lmp only)
+[INFO] build-db:   7_ps: 114 atoms, 120 bonds, 210 angles, 327 dihedrals, 98 impropers
+[INFO] build-db: Database saved to 7_ps.db
+[INFO] build-db: Samples: 1
+[INFO] build-db: Processed: 114 atoms, 120 bonds, 210 angles, 327 dihedrals, 98 impropers
+[INFO] build-db: Hop3 atom types: 32
+[INFO] build-db: Hop2 atom types: 23
+[INFO] build-db: Hop1 atom types: 14
+[INFO] build-db: Hop0 atom types: 6
+[INFO] build-db: Bond types: 11
+[INFO] build-db: Angle types: 23
+[INFO] build-db: Dihedral types: 34
+[INFO] build-db: Improper types: 12

@@ -1,0 +1,5 @@
+Loading modulefiles version 2021.11
+
+Loading lammps23802
+  Loading requirement: cuda11.8 tbb/latest compiler-rt/latest mkl/latest
+    mpi/2021.11

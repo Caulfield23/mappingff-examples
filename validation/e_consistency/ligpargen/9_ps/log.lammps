@@ -1,0 +1,146 @@
+LAMMPS (29 Aug 2024 - Update 3)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:99)
+  using 1 OpenMP thread(s) per MPI task
+# in_energy_consistency_single_molecule.lammps
+# Purpose:
+#   Single-point and minimized energy decomposition for comparing
+#   LigParGen-exported short-chain molecule vs mappingff-generated molecule.
+#
+# How to use:
+#   lmp -in in_e_consistency.lammps -var datafile *.data
+#   lmp -in in_e_consistency.lammps -var datafile *.data
+#
+# Important:
+#   For strict energy consistency, the two data files should contain the same molecule,
+#   same coordinates, same box, same atom order or an auditable atom mapping,
+#   same force-field styles, same pair coefficients, same charges, and same special_bonds.
+
+# Use a cutoff larger than typical OPLS nonbonded cutoffs.
+# Keep this identical for all compared data files.
+variable lj_cut   equal 12.0
+variable coul_cut equal 12.0
+
+# ---------------- Force-field styles ----------------
+units real
+atom_style full
+
+# For an isolated molecule energy audit, use fixed/nonperiodic boundaries and
+# finite-cutoff Coulomb. This avoids periodic-image and kspace artifacts.
+boundary f f f
+
+bond_style harmonic
+angle_style harmonic
+dihedral_style opls
+improper_style cvff
+
+pair_style lj/cut/coul/cut ${lj_cut} ${coul_cut}
+pair_style lj/cut/coul/cut 12 ${coul_cut}
+pair_style lj/cut/coul/cut 12 12
+pair_modify mix geometric
+
+# OPLS-style 1-4 scaling. Use exactly the same setting for every comparison.
+special_bonds lj 0.0 0.0 0.5 coul 0.0 0.0 0.5
+
+read_data ${datafile}
+read_data 9_ps.lmp
+Reading data file ...
+  orthogonal box = (-12.17913 -10.6106 -7.85535) to (37.82087 39.3894 42.14465)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  146 atoms
+  scanning bonds ...
+  2 = max bonds/atom
+  scanning angles ...
+  6 = max angles/atom
+  scanning dihedrals ...
+  9 = max dihedrals/atom
+  scanning impropers ...
+  5 = max impropers/atom
+  orthogonal box = (-12.17913 -10.6106 -7.85535) to (37.82087 39.3894 42.14465)
+  1 by 1 by 1 MPI processor grid
+  reading bonds ...
+  154 bonds
+  reading angles ...
+  270 angles
+  reading dihedrals ...
+  423 dihedrals
+  reading impropers ...
+  90 impropers
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0        0        0.5     
+  special bond factors coul:  0        0        0.5     
+     4 = max # of 1-2 neighbors
+     8 = max # of 1-3 neighbors
+    18 = max # of 1-4 neighbors
+    22 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+  read_data CPU = 0.005 seconds
+
+neighbor 2.0 bin
+neigh_modify delay 0 every 1 check yes
+
+# Do not integrate; this is an energy audit.
+thermo 1
+thermo_style custom step atoms ebond eangle edihed eimp evdwl ecoul pe etotal press temp
+
+# ---------------- Initial single-point energy ----------------
+run 0 post yes
+WARNING: No fixes with time integration, atoms won't move (src/verlet.cpp:60)
+Generated 10585 of 10585 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 14
+  ghost atom cutoff = 14
+  binsize = 7, bins = 8 8 8
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut/coul/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/newton
+      stencil: half/bin/3d
+      bin: standard
+Per MPI rank memory allocation (min/avg/max) = 13.44 | 13.44 | 13.44 Mbytes
+   Step        Atoms        E_bond        E_angle        E_dihed        E_impro         E_vdwl         E_coul         PotEng         TotEng         Press           Temp     
+         0         146   7.4058537      8.2408617      18.912385      0.0072352145   31.517113     -34.238468      31.844981      31.844981      20.240363      0            
+Loop time of 4.46e-07 on 1 procs for 0 steps with 146 atoms
+
+0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Bond    | 0          | 0          | 0          |   0.0 |  0.00
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Output  | 0          | 0          | 0          |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 4.46e-07   |            |       |100.00
+
+Nlocal:            146 ave         146 max         146 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:              0 ave           0 max           0 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:           9445 ave        9445 max        9445 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 9445
+Ave neighs/atom = 64.691781
+Ave special neighs/atom = 11.232877
+Neighbor list builds = 0
+Dangerous builds = 0
+
+variable Ebond0  equal ebond
+variable Eangle0 equal eangle
+variable Edihed0 equal edihed
+variable Eimp0   equal eimp
+variable Evdwl0  equal evdwl
+variable Ecoul0  equal ecoul
+variable PE0     equal pe
+variable Etot0   equal etotal
+
+print "# atoms Ebond Eangle Edihed Eimp Evdwl Ecoul PE Etot" file energy.dat
+# atoms Ebond Eangle Edihed Eimp Evdwl Ecoul PE Etot
+print "$(atoms) ${Ebond0} ${Eangle0} ${Edihed0} ${Eimp0} ${Evdwl0} ${Ecoul0} ${PE0} ${Etot0}" append energy.dat
+146 7.40585367489094 8.24086165783654 18.9123853580016 0.00723521448464381 31.5171131867739 -34.2384684329617 31.8449806590259 31.8449806590259
+Total wall time: 0:00:00

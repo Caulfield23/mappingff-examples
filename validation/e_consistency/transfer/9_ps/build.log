@@ -1,0 +1,15 @@
+[INFO] build-db: Processing 9_ps: 9_ps.lmp (lmp only)
+[INFO] build-db:   9_ps: 146 atoms, 154 bonds, 270 angles, 423 dihedrals, 126 impropers
+[INFO] build-db: Processing 9_ps: 9_ps.data (lmp only)
+[INFO] build-db:   9_ps: 146 atoms, 154 bonds, 270 angles, 423 dihedrals, 126 impropers
+[INFO] build-db: Database saved to 9_ps.db
+[INFO] build-db: Samples: 2
+[INFO] build-db: Processed: 292 atoms, 308 bonds, 540 angles, 846 dihedrals, 252 impropers
+[INFO] build-db: Hop3 atom types: 32
+[INFO] build-db: Hop2 atom types: 23
+[INFO] build-db: Hop1 atom types: 14
+[INFO] build-db: Hop0 atom types: 6
+[INFO] build-db: Bond types: 11
+[INFO] build-db: Angle types: 23
+[INFO] build-db: Dihedral types: 34
+[INFO] build-db: Improper types: 13

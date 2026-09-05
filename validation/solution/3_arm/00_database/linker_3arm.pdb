@@ -1,0 +1,342 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  H00 UNL     1      -3.175  -0.163  -1.779
+ATOM      2  C01 UNL     1      -2.546  -0.041  -0.911
+ATOM      3  C02 UNL     1      -2.388  -1.116  -0.022
+ATOM      4  C03 UNL     1      -1.854   1.164  -0.712
+ATOM      5  C04 UNL     1      -1.508  -0.983   1.066
+ATOM      6  C05 UNL     1      -3.204  -2.376  -0.205
+ATOM      7  C06 UNL     1      -0.995   1.289   0.394
+ATOM      8  C07 UNL     1      -1.962   2.288  -1.716
+ATOM      9  H08 UNL     1      -1.383  -1.810   1.757
+ATOM     10  C09 UNL     1      -0.790   0.209   1.268
+ATOM     11  C0A UNL     1      -2.463  -3.541  -0.908
+ATOM     12  H0B UNL     1      -3.573  -2.715   0.790
+ATOM     13  H0C UNL     1      -4.118  -2.141  -0.795
+ATOM     14  C0D UNL     1      -1.267  -4.075  -0.077
+ATOM     15  C0E UNL     1      -2.096  -3.191  -2.344
+ATOM     16  H0F UNL     1      -3.208  -4.370  -0.925
+ATOM     17  C0G UNL     1      -0.728  -5.454  -0.557
+ATOM     18  H0H UNL     1      -0.445  -3.330  -0.058
+ATOM     19  H0I UNL     1      -1.628  -4.180   0.973
+ATOM     20  C0J UNL     1      -2.789  -3.799  -3.410
+ATOM     21  C0K UNL     1      -1.071  -2.268  -2.644
+ATOM     22  C0M UNL     1       0.409  -5.281  -1.598
+ATOM     23  C0N UNL     1      -0.240  -6.262   0.635
+ATOM     24  H0O UNL     1      -1.567  -5.999  -1.041
+ATOM     25  C0P UNL     1       0.917  -6.593  -2.242
+ATOM     26  H0Q UNL     1       0.057  -4.620  -2.406
+ATOM     27  H0R UNL     1       1.263  -4.773  -1.112
+ATOM     28  C0S UNL     1      -0.821  -7.510   0.931
+ATOM     29  C0T UNL     1       0.796  -5.778   1.460
+ATOM     30  C0U UNL     1      -0.137  -7.203  -3.179
+ATOM     31  C0V UNL     1       2.223  -6.399  -3.005
+ATOM     32  H0W UNL     1       1.111  -7.324  -1.425
+ATOM     33  H0X UNL     1      -1.619  -7.905   0.314
+ATOM     34  C0Y UNL     1      -0.374  -8.255   2.029
+ATOM     35  H0Z UNL     1       1.261  -4.823   1.259
+ATOM     36  C10 UNL     1       1.237  -6.528   2.555
+ATOM     37  H11 UNL     1       0.277  -8.089  -3.702
+ATOM     38  H12 UNL     1      -0.464  -6.468  -3.944
+ATOM     39  H13 UNL     1      -1.019  -7.540  -2.599
+ATOM     40  C14 UNL     1       3.134  -7.472  -3.083
+ATOM     41  C15 UNL     1       2.519  -5.205  -3.701
+ATOM     42  H16 UNL     1       2.928  -8.405  -2.574
+ATOM     43  C17 UNL     1       4.317  -7.348  -3.820
+ATOM     44  H18 UNL     1       1.826  -4.373  -3.721
+ATOM     45  C19 UNL     1       3.730  -5.072  -4.387
+ATOM     46  H1A UNL     1       5.009  -8.178  -3.875
+ATOM     47  C1B UNL     1       4.603  -6.158  -4.484
+ATOM     48  H1C UNL     1       3.992  -4.128  -4.847
+ATOM     49  H1D UNL     1       5.504  -6.071  -5.075
+ATOM     50  H1E UNL     1      -0.825  -9.213   2.254
+ATOM     51  C1F UNL     1       0.652  -7.764   2.838
+ATOM     52  H1G UNL     1       2.032  -6.150   3.186
+ATOM     53  H1H UNL     1       0.995  -8.341   3.687
+ATOM     54  H1I UNL     1      -3.580  -4.512  -3.217
+ATOM     55  C1J UNL     1      -2.466  -3.492  -4.735
+ATOM     56  H1K UNL     1      -0.518  -1.784  -1.855
+ATOM     57  C1M UNL     1      -0.716  -2.004  -3.968
+ATOM     58  H1N UNL     1      -3.007  -3.965  -5.546
+ATOM     59  C1O UNL     1      -1.446  -2.577  -5.012
+ATOM     60  H1P UNL     1       0.125  -1.357  -4.176
+ATOM     61  H1Q UNL     1      -1.226  -2.315  -6.037
+ATOM     62  H1R UNL     1      -0.485   2.227   0.571
+ATOM     63  C1S UNL     1      -3.272   3.106  -1.575
+ATOM     64  H1T UNL     1      -1.854   1.874  -2.743
+ATOM     65  H1U UNL     1      -1.093   2.970  -1.575
+ATOM     66  C1V UNL     1      -4.429   2.487  -2.404
+ATOM     67  C1W UNL     1      -3.030   4.559  -1.963
+ATOM     68  H1X UNL     1      -3.582   3.070  -0.506
+ATOM     69  C1Y UNL     1      -5.754   3.311  -2.348
+ATOM     70  H1Z UNL     1      -4.096   2.350  -3.456
+ATOM     71  H20 UNL     1      -4.622   1.473  -2.003
+ATOM     72  C21 UNL     1      -3.363   5.589  -1.068
+ATOM     73  C22 UNL     1      -2.478   4.896  -3.213
+ATOM     74  C23 UNL     1      -5.976   4.102  -3.659
+ATOM     75  C24 UNL     1      -6.951   2.427  -2.042
+ATOM     76  H25 UNL     1      -5.652   4.044  -1.523
+ATOM     77  C26 UNL     1      -7.129   5.135  -3.591
+ATOM     78  H27 UNL     1      -5.040   4.632  -3.921
+ATOM     79  H28 UNL     1      -6.182   3.384  -4.482
+ATOM     80  C29 UNL     1      -7.786   2.727  -0.949
+ATOM     81  C2A UNL     1      -7.244   1.304  -2.841
+ATOM     82  C2B UNL     1      -6.842   6.268  -2.590
+ATOM     83  C2C UNL     1      -7.397   5.742  -4.958
+ATOM     84  H2D UNL     1      -8.044   4.606  -3.244
+ATOM     85  H2E UNL     1      -7.580   3.586  -0.322
+ATOM     86  C2F UNL     1      -8.894   1.917  -0.661
+ATOM     87  H2G UNL     1      -6.619   1.055  -3.686
+ATOM     88  C2H UNL     1      -8.351   0.496  -2.547
+ATOM     89  H2I UNL     1      -6.900   5.888  -1.550
+ATOM     90  H2J UNL     1      -7.610   7.065  -2.682
+ATOM     91  H2K UNL     1      -5.838   6.712  -2.773
+ATOM     92  C2M UNL     1      -8.712   5.779  -5.465
+ATOM     93  C2N UNL     1      -6.368   6.369  -5.691
+ATOM     94  H2O UNL     1      -9.526   5.327  -4.914
+ATOM     95  C2P UNL     1      -8.996   6.448  -6.660
+ATOM     96  H2Q UNL     1      -5.349   6.382  -5.320
+ATOM     97  C2R UNL     1      -6.651   6.990  -6.915
+ATOM     98  H2S UNL     1     -10.008   6.473  -7.041
+ATOM     99  C2T UNL     1      -7.973   7.086  -7.362
+ATOM    100  H2U UNL     1      -5.848   7.397  -7.515
+ATOM    101  H2V UNL     1      -8.198   7.657  -8.252
+ATOM    102  H2W UNL     1      -9.532   2.156   0.182
+ATOM    103  C2X UNL     1      -9.174   0.801  -1.460
+ATOM    104  H2Y UNL     1      -8.568  -0.367  -3.167
+ATOM    105  H2Z UNL     1     -10.030   0.174  -1.233
+ATOM    106  H30 UNL     1      -3.790   5.361  -0.102
+ATOM    107  C31 UNL     1      -3.148   6.925  -1.413
+ATOM    108  H32 UNL     1      -2.213   4.124  -3.922
+ATOM    109  C33 UNL     1      -2.265   6.237  -3.553
+ATOM    110  H34 UNL     1      -3.411   7.705  -0.713
+ATOM    111  C35 UNL     1      -2.599   7.247  -2.655
+ATOM    112  H36 UNL     1      -1.838   6.486  -4.514
+ATOM    113  H37 UNL     1      -2.433   8.282  -2.919
+ATOM    114  C38 UNL     1       0.146   0.342   2.452
+ATOM    115  C39 UNL     1       1.664   0.362   2.113
+ATOM    116  H3A UNL     1      -0.029  -0.500   3.158
+ATOM    117  H3B UNL     1      -0.119   1.265   3.015
+ATOM    118  C3C UNL     1       2.127   1.673   1.420
+ATOM    119  C3D UNL     1       2.126  -0.882   1.365
+ATOM    120  H3E UNL     1       2.155   0.369   3.115
+ATOM    121  C3F UNL     1       3.676   1.860   1.419
+ATOM    122  H3G UNL     1       1.746   1.725   0.377
+ATOM    123  H3H UNL     1       1.656   2.515   1.973
+ATOM    124  C3I UNL     1       2.982  -1.805   2.001
+ATOM    125  C3J UNL     1       1.793  -1.090   0.009
+ATOM    126  C3K UNL     1       4.311   1.379   0.088
+ATOM    127  C3M UNL     1       4.047   3.310   1.686
+ATOM    128  H3N UNL     1       4.088   1.239   2.242
+ATOM    129  C3O UNL     1       5.844   1.195   0.148
+ATOM    130  H3P UNL     1       3.860   0.426  -0.222
+ATOM    131  H3Q UNL     1       4.066   2.107  -0.710
+ATOM    132  C3R UNL     1       4.888   3.634   2.766
+ATOM    133  C3S UNL     1       3.556   4.342   0.862
+ATOM    134  C3T UNL     1       6.259   0.044   1.080
+ATOM    135  C3U UNL     1       6.395   0.950  -1.246
+ATOM    136  H3V UNL     1       6.294   2.129   0.557
+ATOM    137  H3W UNL     1       5.276   2.859   3.413
+ATOM    138  C3X UNL     1       5.231   4.963   3.017
+ATOM    139  H3Y UNL     1       2.907   4.116   0.026
+ATOM    140  C3Z UNL     1       3.901   5.671   1.115
+ATOM    141  H40 UNL     1       7.346  -0.153   0.976
+ATOM    142  H41 UNL     1       5.706  -0.888   0.839
+ATOM    143  H42 UNL     1       6.078   0.305   2.141
+ATOM    144  C43 UNL     1       7.317   1.853  -1.811
+ATOM    145  C44 UNL     1       5.999  -0.176  -1.993
+ATOM    146  H45 UNL     1       7.640   2.728  -1.257
+ATOM    147  C46 UNL     1       7.829   1.634  -3.096
+ATOM    148  H47 UNL     1       5.295  -0.891  -1.593
+ATOM    149  C48 UNL     1       6.516  -0.389  -3.273
+ATOM    150  H49 UNL     1       8.540   2.329  -3.531
+ATOM    151  C4A UNL     1       7.424   0.515  -3.825
+ATOM    152  H4B UNL     1       6.209  -1.259  -3.834
+ATOM    153  H4C UNL     1       7.817   0.352  -4.821
+ATOM    154  H4D UNL     1       5.877   5.204   3.851
+ATOM    155  C4E UNL     1       4.738   5.980   2.192
+ATOM    156  H4F UNL     1       3.516   6.456   0.475
+ATOM    157  H4G UNL     1       5.004   7.007   2.390
+ATOM    158  H4H UNL     1       3.250  -1.683   3.046
+ATOM    159  C4I UNL     1       3.502  -2.894   1.292
+ATOM    160  H4J UNL     1       1.165  -0.388  -0.521
+ATOM    161  C4K UNL     1       2.334  -2.169  -0.696
+ATOM    162  H4M UNL     1       4.159  -3.599   1.786
+ATOM    163  C4N UNL     1       3.174  -3.074  -0.055
+ATOM    164  H4O UNL     1       2.098  -2.304  -1.744
+ATOM    165  H4P UNL     1       3.576  -3.921  -0.598
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    2    4 
+CONECT    3    5 
+CONECT    3    6 
+CONECT    4    7 
+CONECT    4    8 
+CONECT    5    9 
+CONECT    5   10 
+CONECT    6   11 
+CONECT    6   12 
+CONECT    6   13 
+CONECT   11   14 
+CONECT   11   15 
+CONECT   11   16 
+CONECT   14   17 
+CONECT   14   18 
+CONECT   14   19 
+CONECT   15   20 
+CONECT   15   21 
+CONECT   17   22 
+CONECT   17   23 
+CONECT   17   24 
+CONECT   22   25 
+CONECT   22   26 
+CONECT   22   27 
+CONECT   23   28 
+CONECT   23   29 
+CONECT   25   30 
+CONECT   25   31 
+CONECT   25   32 
+CONECT   28   33 
+CONECT   28   34 
+CONECT   29   35 
+CONECT   29   36 
+CONECT   30   37 
+CONECT   30   38 
+CONECT   30   39 
+CONECT   31   40 
+CONECT   31   41 
+CONECT   40   42 
+CONECT   40   43 
+CONECT   41   44 
+CONECT   41   45 
+CONECT   43   46 
+CONECT   43   47 
+CONECT   45   48 
+CONECT   47   49 
+CONECT   34   50 
+CONECT   34   51 
+CONECT   36   52 
+CONECT   51   53 
+CONECT   20   54 
+CONECT   20   55 
+CONECT   21   56 
+CONECT   21   57 
+CONECT   55   58 
+CONECT   55   59 
+CONECT   57   60 
+CONECT   59   61 
+CONECT    7   62 
+CONECT    8   63 
+CONECT    8   64 
+CONECT    8   65 
+CONECT   63   66 
+CONECT   63   67 
+CONECT   63   68 
+CONECT   66   69 
+CONECT   66   70 
+CONECT   66   71 
+CONECT   67   72 
+CONECT   67   73 
+CONECT   69   74 
+CONECT   69   75 
+CONECT   69   76 
+CONECT   74   77 
+CONECT   74   78 
+CONECT   74   79 
+CONECT   75   80 
+CONECT   75   81 
+CONECT   77   82 
+CONECT   77   83 
+CONECT   77   84 
+CONECT   80   85 
+CONECT   80   86 
+CONECT   81   87 
+CONECT   81   88 
+CONECT   82   89 
+CONECT   82   90 
+CONECT   82   91 
+CONECT   83   92 
+CONECT   83   93 
+CONECT   92   94 
+CONECT   92   95 
+CONECT   93   96 
+CONECT   93   97 
+CONECT   95   98 
+CONECT   95   99 
+CONECT   97  100 
+CONECT   99  101 
+CONECT   86  102 
+CONECT   86  103 
+CONECT   88  104 
+CONECT  103  105 
+CONECT   72  106 
+CONECT   72  107 
+CONECT   73  108 
+CONECT   73  109 
+CONECT  107  110 
+CONECT  107  111 
+CONECT  109  112 
+CONECT  111  113 
+CONECT   10  114 
+CONECT  114  115 
+CONECT  114  116 
+CONECT  114  117 
+CONECT  115  118 
+CONECT  115  119 
+CONECT  115  120 
+CONECT  118  121 
+CONECT  118  122 
+CONECT  118  123 
+CONECT  119  124 
+CONECT  119  125 
+CONECT  121  126 
+CONECT  121  127 
+CONECT  121  128 
+CONECT  126  129 
+CONECT  126  130 
+CONECT  126  131 
+CONECT  127  132 
+CONECT  127  133 
+CONECT  129  134 
+CONECT  129  135 
+CONECT  129  136 
+CONECT  132  137 
+CONECT  132  138 
+CONECT  133  139 
+CONECT  133  140 
+CONECT  134  141 
+CONECT  134  142 
+CONECT  134  143 
+CONECT  135  144 
+CONECT  135  145 
+CONECT  144  146 
+CONECT  144  147 
+CONECT  145  148 
+CONECT  145  149 
+CONECT  147  150 
+CONECT  147  151 
+CONECT  149  152 
+CONECT  151  153 
+CONECT  138  154 
+CONECT  138  155 
+CONECT  140  156 
+CONECT  155  157 
+CONECT  124  158 
+CONECT  124  159 
+CONECT  125  160 
+CONECT  125  161 
+CONECT  159  162 
+CONECT  159  163 
+CONECT  161  164 
+CONECT  163  165 
+CONECT    7   10 
+CONECT   36   51 
+CONECT   45   47 
+CONECT   57   59 
+CONECT   88  103 
+CONECT   97   99 
+CONECT  109  111 
+CONECT  140  155 
+CONECT  149  151 
+CONECT  161  163 
+END

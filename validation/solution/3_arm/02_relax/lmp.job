@@ -1,0 +1,18 @@
+#!/usr/bin/bash
+#SBATCH --job-name=whatever              # 自定义任务名称
+#SBATCH --partition=cpu               # 想将任务分配到的节点分区
+#SBATCH --output=output.log             # 任务计算过程标准输出文件
+#SBATCH --error=error.log               # 任务计算过程错误输出文件
+#SBATCH --nodelist=compute-0-2      # 指定任务提交的计算节点
+#SBATCH -n 16                            # 指定任务需要占用的CPU核数
+
+ulimit -s unlimited
+ulimit -l unlimited
+
+
+cd $SLURM_SUBMIT_DIR
+
+source ~/.bashrc
+module load lammps23802
+
+mpirun -n 16 lmp -in in_relax.lammps

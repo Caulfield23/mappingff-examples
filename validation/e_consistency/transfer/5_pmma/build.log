@@ -1,0 +1,13 @@
+[INFO] build-db: Processing 5_pmma: 5_pmma.lmp (lmp only)
+[INFO] build-db:   5_pmma: 77 atoms, 76 bonds, 140 angles, 181 dihedrals, 85 impropers
+[INFO] build-db: Database saved to 5_pmma.db
+[INFO] build-db: Samples: 1
+[INFO] build-db: Processed: 77 atoms, 76 bonds, 140 angles, 181 dihedrals, 85 impropers
+[INFO] build-db: Hop3 atom types: 33
+[INFO] build-db: Hop2 atom types: 24
+[INFO] build-db: Hop1 atom types: 15
+[INFO] build-db: Hop0 atom types: 9
+[INFO] build-db: Bond types: 13
+[INFO] build-db: Angle types: 27
+[INFO] build-db: Dihedral types: 35
+[INFO] build-db: Improper types: 13

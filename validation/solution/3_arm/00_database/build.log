@@ -1,0 +1,15 @@
+[INFO] build-db: Processing linker_3arm: linker_3arm.lmp (lmp only)
+[INFO] build-db:   linker_3arm: 165 atoms, 174 bonds, 306 angles, 474 dihedrals, 144 impropers
+[INFO] build-db: Processing 5_ps: 5_ps.data (lmp only)
+[INFO] build-db:   5_ps: 82 atoms, 86 bonds, 150 angles, 231 dihedrals, 70 impropers
+[INFO] build-db: Database saved to ps_3arm.db
+[INFO] build-db: Samples: 2
+[INFO] build-db: Processed: 247 atoms, 260 bonds, 456 angles, 705 dihedrals, 214 impropers
+[INFO] build-db: Hop3 atom types: 41
+[INFO] build-db: Hop2 atom types: 29
+[INFO] build-db: Hop1 atom types: 16
+[INFO] build-db: Hop0 atom types: 6
+[INFO] build-db: Bond types: 11
+[INFO] build-db: Angle types: 25
+[INFO] build-db: Dihedral types: 40
+[INFO] build-db: Improper types: 12

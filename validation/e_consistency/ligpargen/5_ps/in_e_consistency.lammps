@@ -1,0 +1,61 @@
+# in_energy_consistency_single_molecule.lammps
+# Purpose:
+#   Single-point and minimized energy decomposition for comparing
+#   LigParGen-exported short-chain molecule vs mappingff-generated molecule.
+#
+# How to use:
+#   lmp -in in_e_consistency.lammps -var datafile *.data
+#   lmp -in in_e_consistency.lammps -var datafile *.data
+#
+# Important:
+#   For strict energy consistency, the two data files should contain the same molecule,
+#   same coordinates, same box, same atom order or an auditable atom mapping,
+#   same force-field styles, same pair coefficients, same charges, and same special_bonds.
+
+# Use a cutoff larger than typical OPLS nonbonded cutoffs.
+# Keep this identical for all compared data files.
+variable lj_cut   equal 12.0
+variable coul_cut equal 12.0
+
+# ---------------- Force-field styles ----------------
+units real
+atom_style full
+
+# For an isolated molecule energy audit, use fixed/nonperiodic boundaries and
+# finite-cutoff Coulomb. This avoids periodic-image and kspace artifacts.
+boundary f f f
+
+bond_style harmonic
+angle_style harmonic
+dihedral_style opls
+improper_style cvff
+
+pair_style lj/cut/coul/cut ${lj_cut} ${coul_cut}
+pair_modify mix geometric
+
+# OPLS-style 1-4 scaling. Use exactly the same setting for every comparison.
+special_bonds lj 0.0 0.0 0.5 coul 0.0 0.0 0.5
+
+read_data ${datafile}
+
+neighbor 2.0 bin
+neigh_modify delay 0 every 1 check yes
+
+# Do not integrate; this is an energy audit.
+thermo 1
+thermo_style custom step atoms ebond eangle edihed eimp evdwl ecoul pe etotal press temp
+
+# ---------------- Initial single-point energy ----------------
+run 0 post yes
+
+variable Ebond0  equal ebond
+variable Eangle0 equal eangle
+variable Edihed0 equal edihed
+variable Eimp0   equal eimp
+variable Evdwl0  equal evdwl
+variable Ecoul0  equal ecoul
+variable PE0     equal pe
+variable Etot0   equal etotal
+
+print "# atoms Ebond Eangle Edihed Eimp Evdwl Ecoul PE Etot" file energy.dat
+print "$(atoms) ${Ebond0} ${Eangle0} ${Edihed0} ${Eimp0} ${Evdwl0} ${Ecoul0} ${PE0} ${Etot0}" append energy.dat
