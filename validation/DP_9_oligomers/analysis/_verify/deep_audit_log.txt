@@ -1,0 +1,124 @@
+ligpargen/9_pva: natoms=6500 nchain=100 nbonds=6400 bonds_intra_chain=6400 max_bond_len_est
+
+==============================================================================
+ligpargen/9_pva  frames=101  wall=14.0s
+  box Lx: first (1500000, 40.2885694814063) last (2000000, 40.301922757796966)   min 40.289 max 40.302
+  atoms with wrapped coord outside box (total over frames): 2447
+  atoms with non-integer image offset (xu-x)/L : 43552
+  --- max |Rg(a)-Rg(c_k)| over all chains & frames ---
+    c1: max=13.5579  mean-of-frame-max=12.6908  n_frames_with_dev>1e-8=101/101
+    c2: max=13.3771  mean-of-frame-max=9.38166  n_frames_with_dev>1e-8=101/101
+    c3: max=4.70455e-05  mean-of-frame-max=1.83873e-05  n_frames_with_dev>1e-8=101/101
+    c4: max=4.70455e-05  mean-of-frame-max=1.83873e-05  n_frames_with_dev>1e-8=101/101
+    b (wrapped, no MIC): max=18.0828
+  --- straddling ---
+    chains occupying >1 image flag (definitive): min=57 max=64 mean=60.3 / 100
+    chains with wrapped span > L/2: min=63 max=69 mean=65.7
+    chains whose TRUE extent > L/2: min=86 max=94 mean=89.6
+    max chain extent (A): min 25.13 max 26.13
+mappingff/9_pva: natoms=6500 nchain=100 nbonds=6400 bonds_intra_chain=6400 max_bond_len_est
+
+==============================================================================
+mappingff/9_pva  frames=101  wall=13.5s
+  box Lx: first (1500000, 39.239605648861) last (2000000, 39.24637550703258)   min 39.240 max 39.246
+  atoms with wrapped coord outside box (total over frames): 2879
+  atoms with non-integer image offset (xu-x)/L : 27658
+  --- max |Rg(a)-Rg(c_k)| over all chains & frames ---
+    c1: max=13.1336  mean-of-frame-max=12.1223  n_frames_with_dev>1e-8=101/101
+    c2: max=12.5981  mean-of-frame-max=1.60279  n_frames_with_dev>1e-8=101/101
+    c3: max=1.5022e-05  mean-of-frame-max=8.18859e-06  n_frames_with_dev>1e-8=101/101
+    c4: max=1.5022e-05  mean-of-frame-max=8.18859e-06  n_frames_with_dev>1e-8=101/101
+    b (wrapped, no MIC): max=17.2567
+  --- straddling ---
+    chains occupying >1 image flag (definitive): min=49 max=57 mean=54.0 / 100
+    chains with wrapped span > L/2: min=74 max=81 mean=77.5
+    chains whose TRUE extent > L/2: min=96 max=98 mean=97.6
+    max chain extent (A): min 25.39 max 26.17
+ligpargen/9_peo: natoms=6600 nchain=100 nbonds=6500 bonds_intra_chain=6500 max_bond_len_est
+
+==============================================================================
+ligpargen/9_peo  frames=101  wall=13.5s
+  box Lx: first (1500000, 39.26559204348932) last (2000000, 39.30596332115918)   min 39.266 max 39.306
+  atoms with wrapped coord outside box (total over frames): 3529
+  atoms with non-integer image offset (xu-x)/L : 42750
+  --- max |Rg(a)-Rg(c_k)| over all chains & frames ---
+    c1: max=13.3928  mean-of-frame-max=12.2983  n_frames_with_dev>1e-8=101/101
+    c2: max=13.3738  mean-of-frame-max=2.66676  n_frames_with_dev>1e-8=101/101
+    c3: max=1.43854e-05  mean-of-frame-max=9.34293e-06  n_frames_with_dev>1e-8=101/101
+    c4: max=1.43854e-05  mean-of-frame-max=9.34293e-06  n_frames_with_dev>1e-8=101/101
+    b (wrapped, no MIC): max=19.9393
+  --- straddling ---
+    chains occupying >1 image flag (definitive): min=55 max=64 mean=60.0 / 100
+    chains with wrapped span > L/2: min=56 max=67 mean=61.3
+    chains whose TRUE extent > L/2: min=74 max=82 mean=77.2
+    max chain extent (A): min 27.21 max 29.18
+mappingff/9_peo: natoms=6600 nchain=100 nbonds=6500 bonds_intra_chain=6500 max_bond_len_est
+
+==============================================================================
+mappingff/9_peo  frames=101  wall=14.9s
+  box Lx: first (1500000, 39.414374295984544) last (2000000, 39.41121538366566)   min 39.411 max 39.414
+  atoms with wrapped coord outside box (total over frames): 3790
+  atoms with non-integer image offset (xu-x)/L : 24446
+  --- max |Rg(a)-Rg(c_k)| over all chains & frames ---
+    c1: max=16.256  mean-of-frame-max=12.7275  n_frames_with_dev>1e-8=101/101
+    c2: max=13.2212  mean-of-frame-max=8.74346  n_frames_with_dev>1e-8=101/101
+    c3: max=1.73398e-05  mean-of-frame-max=8.14339e-06  n_frames_with_dev>1e-8=101/101
+    c4: max=1.73398e-05  mean-of-frame-max=8.14339e-06  n_frames_with_dev>1e-8=101/101
+    b (wrapped, no MIC): max=18.2584
+  --- straddling ---
+    chains occupying >1 image flag (definitive): min=66 max=72 mean=69.7 / 100
+    chains with wrapped span > L/2: min=70 max=77 mean=73.9
+    chains whose TRUE extent > L/2: min=74 max=83 mean=78.9
+    max chain extent (A): min 27.89 max 30.27
+ligpargen/9_ps: natoms=14600 nchain=100 nbonds=15400 bonds_intra_chain=15400 max_bond_len_est
+
+==============================================================================
+ligpargen/9_ps  frames=101  wall=34.1s
+  box Lx: first (1500000, 55.50990270022906) last (2000000, 55.50467537000274)   min 55.505 max 55.510
+  atoms with wrapped coord outside box (total over frames): 4919
+  atoms with non-integer image offset (xu-x)/L : 120202
+  --- max |Rg(a)-Rg(c_k)| over all chains & frames ---
+    c1: max=29.2567  mean-of-frame-max=22.8769  n_frames_with_dev>1e-8=101/101
+    c2: max=20.0842  mean-of-frame-max=3.33815  n_frames_with_dev>1e-8=101/101
+    c3: max=1.24714e-05  mean-of-frame-max=7.01888e-06  n_frames_with_dev>1e-8=101/101
+    c4: max=1.24714e-05  mean-of-frame-max=7.01888e-06  n_frames_with_dev>1e-8=101/101
+    b (wrapped, no MIC): max=29.4244
+  --- straddling ---
+    chains occupying >1 image flag (definitive): min=58 max=65 mean=62.2 / 100
+    chains with wrapped span > L/2: min=58 max=65 mean=62.2
+    chains whose TRUE extent > L/2: min=53 max=64 mean=58.2
+    max chain extent (A): min 31.34 max 33.09
+mappingff/9_ps: natoms=14600 nchain=100 nbonds=15400 bonds_intra_chain=15400 max_bond_len_est
+
+==============================================================================
+mappingff/9_ps  frames=101  wall=32.2s
+  box Lx: first (1500000, 54.62054041546115) last (2000000, 54.61925716337119)   min 54.619 max 54.621
+  atoms with wrapped coord outside box (total over frames): 4956
+  atoms with non-integer image offset (xu-x)/L : 222642
+  --- max |Rg(a)-Rg(c_k)| over all chains & frames ---
+    c1: max=19.2353  mean-of-frame-max=18.3077  n_frames_with_dev>1e-8=101/101
+    c2: max=18.7493  mean-of-frame-max=2.81113  n_frames_with_dev>1e-8=101/101
+    c3: max=1.55527e-05  mean-of-frame-max=7.84153e-06  n_frames_with_dev>1e-8=101/101
+    c4: max=1.55527e-05  mean-of-frame-max=7.84153e-06  n_frames_with_dev>1e-8=101/101
+    b (wrapped, no MIC): max=27.12
+  --- straddling ---
+    chains occupying >1 image flag (definitive): min=59 max=65 mean=62.0 / 100
+    chains with wrapped span > L/2: min=59 max=65 mean=62.0
+    chains whose TRUE extent > L/2: min=60 max=70 mean=65.3
+    max chain extent (A): min 32.02 max 33.64
+Traceback (most recent call last):
+  File "C:\schoolwork\Projects\mappingff\validation\longer\analysis\_verify\deep_audit.py", line 367, in <module>
+    json.dump(out, fh, indent=1, default=float)
+  File "C:\Users\85897\.conda\envs\mappingff\lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Users\85897\.conda\envs\mappingff\lib\json\encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "C:\Users\85897\.conda\envs\mappingff\lib\json\encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "C:\Users\85897\.conda\envs\mappingff\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\85897\.conda\envs\mappingff\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\85897\.conda\envs\mappingff\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+TypeError: only length-1 arrays can be converted to Python scalars

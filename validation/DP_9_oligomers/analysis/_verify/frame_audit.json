@@ -1,0 +1,482 @@
+[
+ {
+  "source": "ligpargen",
+  "system": "9_peo",
+  "traj": "C:\\schoolwork\\Projects\\mappingff\\validation\\longer\\ligpargen\\9_peo\\dump.lammpstrj",
+  "n_frames": 400,
+  "first_step": 5000,
+  "last_step": 2000000,
+  "steps_strictly_increasing": true,
+  "n_duplicate_steps": 0,
+  "unique_step_diffs": [
+   5000
+  ],
+  "n_expected": 400,
+  "steps_match_expected_exactly": true,
+  "missing_steps": [],
+  "n_missing": 0,
+  "extra_steps": [],
+  "n_extra": 0,
+  "n_selected": 101,
+  "selected_steps_first": 1500000,
+  "selected_steps_last": 2000000,
+  "selected_step_diffs": [
+   5000
+  ],
+  "selected_steps_missing": [],
+  "n_selected_out_of_window": 0,
+  "steps_just_outside": [
+   1495000
+  ],
+  "headers_seen": [
+   "ITEM: ATOMS id mol type q x y z xu yu zu"
+  ],
+  "header_exact": true,
+  "natoms_header_values": [
+   6600
+  ],
+  "anomalies": [],
+  "n_anomalies": 0,
+  "box_bounds_problems": [],
+  "nonfinite_coord_frames": [],
+  "atom_line_count_problems": [],
+  "atom_id_problem_frames": [],
+  "mol_range_problem_frames": [],
+  "n_columns_seen": [
+   10
+  ],
+  "edge_frames": [
+   {
+    "step": 5000,
+    "natoms": 6600,
+    "n_atom_lines": 6600
+   },
+   {
+    "step": 2000000,
+    "natoms": 6600,
+    "n_atom_lines": 6600
+   }
+  ],
+  "elapsed_s": 2.3
+ },
+ {
+  "source": "mappingff",
+  "system": "9_peo",
+  "traj": "C:\\schoolwork\\Projects\\mappingff\\validation\\longer\\mappingff\\9_peo\\dump.lammpstrj",
+  "n_frames": 400,
+  "first_step": 5000,
+  "last_step": 2000000,
+  "steps_strictly_increasing": true,
+  "n_duplicate_steps": 0,
+  "unique_step_diffs": [
+   5000
+  ],
+  "n_expected": 400,
+  "steps_match_expected_exactly": true,
+  "missing_steps": [],
+  "n_missing": 0,
+  "extra_steps": [],
+  "n_extra": 0,
+  "n_selected": 101,
+  "selected_steps_first": 1500000,
+  "selected_steps_last": 2000000,
+  "selected_step_diffs": [
+   5000
+  ],
+  "selected_steps_missing": [],
+  "n_selected_out_of_window": 0,
+  "steps_just_outside": [
+   1495000
+  ],
+  "headers_seen": [
+   "ITEM: ATOMS id mol type q x y z xu yu zu"
+  ],
+  "header_exact": true,
+  "natoms_header_values": [
+   6600
+  ],
+  "anomalies": [],
+  "n_anomalies": 0,
+  "box_bounds_problems": [],
+  "nonfinite_coord_frames": [],
+  "atom_line_count_problems": [],
+  "atom_id_problem_frames": [],
+  "mol_range_problem_frames": [],
+  "n_columns_seen": [
+   10
+  ],
+  "edge_frames": [
+   {
+    "step": 5000,
+    "natoms": 6600,
+    "n_atom_lines": 6600
+   },
+   {
+    "step": 2000000,
+    "natoms": 6600,
+    "n_atom_lines": 6600
+   }
+  ],
+  "elapsed_s": 2.0
+ },
+ {
+  "source": "ligpargen",
+  "system": "9_pmma",
+  "traj": "C:\\schoolwork\\Projects\\mappingff\\validation\\longer\\ligpargen\\9_pmma\\dump.lammpstrj",
+  "n_frames": 400,
+  "first_step": 5000,
+  "last_step": 2000000,
+  "steps_strictly_increasing": true,
+  "n_duplicate_steps": 0,
+  "unique_step_diffs": [
+   5000
+  ],
+  "n_expected": 400,
+  "steps_match_expected_exactly": true,
+  "missing_steps": [],
+  "n_missing": 0,
+  "extra_steps": [],
+  "n_extra": 0,
+  "n_selected": 101,
+  "selected_steps_first": 1500000,
+  "selected_steps_last": 2000000,
+  "selected_step_diffs": [
+   5000
+  ],
+  "selected_steps_missing": [],
+  "n_selected_out_of_window": 0,
+  "steps_just_outside": [
+   1495000
+  ],
+  "headers_seen": [
+   "ITEM: ATOMS id mol type q x y z xu yu zu"
+  ],
+  "header_exact": true,
+  "natoms_header_values": [
+   13700
+  ],
+  "anomalies": [],
+  "n_anomalies": 0,
+  "box_bounds_problems": [],
+  "nonfinite_coord_frames": [],
+  "atom_line_count_problems": [],
+  "atom_id_problem_frames": [],
+  "mol_range_problem_frames": [],
+  "n_columns_seen": [
+   10
+  ],
+  "edge_frames": [
+   {
+    "step": 5000,
+    "natoms": 13700,
+    "n_atom_lines": 13700
+   },
+   {
+    "step": 2000000,
+    "natoms": 13700,
+    "n_atom_lines": 13700
+   }
+  ],
+  "elapsed_s": 4.4
+ },
+ {
+  "source": "mappingff",
+  "system": "9_pmma",
+  "traj": "C:\\schoolwork\\Projects\\mappingff\\validation\\longer\\mappingff\\9_pmma\\dump.lammpstrj",
+  "n_frames": 400,
+  "first_step": 5000,
+  "last_step": 2000000,
+  "steps_strictly_increasing": true,
+  "n_duplicate_steps": 0,
+  "unique_step_diffs": [
+   5000
+  ],
+  "n_expected": 400,
+  "steps_match_expected_exactly": true,
+  "missing_steps": [],
+  "n_missing": 0,
+  "extra_steps": [],
+  "n_extra": 0,
+  "n_selected": 101,
+  "selected_steps_first": 1500000,
+  "selected_steps_last": 2000000,
+  "selected_step_diffs": [
+   5000
+  ],
+  "selected_steps_missing": [],
+  "n_selected_out_of_window": 0,
+  "steps_just_outside": [
+   1495000
+  ],
+  "headers_seen": [
+   "ITEM: ATOMS id mol type q x y z xu yu zu"
+  ],
+  "header_exact": true,
+  "natoms_header_values": [
+   13700
+  ],
+  "anomalies": [],
+  "n_anomalies": 0,
+  "box_bounds_problems": [],
+  "nonfinite_coord_frames": [],
+  "atom_line_count_problems": [],
+  "atom_id_problem_frames": [],
+  "mol_range_problem_frames": [],
+  "n_columns_seen": [
+   10
+  ],
+  "edge_frames": [
+   {
+    "step": 5000,
+    "natoms": 13700,
+    "n_atom_lines": 13700
+   },
+   {
+    "step": 2000000,
+    "natoms": 13700,
+    "n_atom_lines": 13700
+   }
+  ],
+  "elapsed_s": 4.3
+ },
+ {
+  "source": "ligpargen",
+  "system": "9_ps",
+  "traj": "C:\\schoolwork\\Projects\\mappingff\\validation\\longer\\ligpargen\\9_ps\\dump.lammpstrj",
+  "n_frames": 400,
+  "first_step": 5000,
+  "last_step": 2000000,
+  "steps_strictly_increasing": true,
+  "n_duplicate_steps": 0,
+  "unique_step_diffs": [
+   5000
+  ],
+  "n_expected": 400,
+  "steps_match_expected_exactly": true,
+  "missing_steps": [],
+  "n_missing": 0,
+  "extra_steps": [],
+  "n_extra": 0,
+  "n_selected": 101,
+  "selected_steps_first": 1500000,
+  "selected_steps_last": 2000000,
+  "selected_step_diffs": [
+   5000
+  ],
+  "selected_steps_missing": [],
+  "n_selected_out_of_window": 0,
+  "steps_just_outside": [
+   1495000
+  ],
+  "headers_seen": [
+   "ITEM: ATOMS id mol type q x y z xu yu zu"
+  ],
+  "header_exact": true,
+  "natoms_header_values": [
+   14600
+  ],
+  "anomalies": [],
+  "n_anomalies": 0,
+  "box_bounds_problems": [],
+  "nonfinite_coord_frames": [],
+  "atom_line_count_problems": [],
+  "atom_id_problem_frames": [],
+  "mol_range_problem_frames": [],
+  "n_columns_seen": [
+   10
+  ],
+  "edge_frames": [
+   {
+    "step": 5000,
+    "natoms": 14600,
+    "n_atom_lines": 14600
+   },
+   {
+    "step": 2000000,
+    "natoms": 14600,
+    "n_atom_lines": 14600
+   }
+  ],
+  "elapsed_s": 4.6
+ },
+ {
+  "source": "mappingff",
+  "system": "9_ps",
+  "traj": "C:\\schoolwork\\Projects\\mappingff\\validation\\longer\\mappingff\\9_ps\\dump.lammpstrj",
+  "n_frames": 400,
+  "first_step": 5000,
+  "last_step": 2000000,
+  "steps_strictly_increasing": true,
+  "n_duplicate_steps": 0,
+  "unique_step_diffs": [
+   5000
+  ],
+  "n_expected": 400,
+  "steps_match_expected_exactly": true,
+  "missing_steps": [],
+  "n_missing": 0,
+  "extra_steps": [],
+  "n_extra": 0,
+  "n_selected": 101,
+  "selected_steps_first": 1500000,
+  "selected_steps_last": 2000000,
+  "selected_step_diffs": [
+   5000
+  ],
+  "selected_steps_missing": [],
+  "n_selected_out_of_window": 0,
+  "steps_just_outside": [
+   1495000
+  ],
+  "headers_seen": [
+   "ITEM: ATOMS id mol type q x y z xu yu zu"
+  ],
+  "header_exact": true,
+  "natoms_header_values": [
+   14600
+  ],
+  "anomalies": [],
+  "n_anomalies": 0,
+  "box_bounds_problems": [],
+  "nonfinite_coord_frames": [],
+  "atom_line_count_problems": [],
+  "atom_id_problem_frames": [],
+  "mol_range_problem_frames": [],
+  "n_columns_seen": [
+   10
+  ],
+  "edge_frames": [
+   {
+    "step": 5000,
+    "natoms": 14600,
+    "n_atom_lines": 14600
+   },
+   {
+    "step": 2000000,
+    "natoms": 14600,
+    "n_atom_lines": 14600
+   }
+  ],
+  "elapsed_s": 4.9
+ },
+ {
+  "source": "ligpargen",
+  "system": "9_pva",
+  "traj": "C:\\schoolwork\\Projects\\mappingff\\validation\\longer\\ligpargen\\9_pva\\dump.lammpstrj",
+  "n_frames": 400,
+  "first_step": 5000,
+  "last_step": 2000000,
+  "steps_strictly_increasing": true,
+  "n_duplicate_steps": 0,
+  "unique_step_diffs": [
+   5000
+  ],
+  "n_expected": 400,
+  "steps_match_expected_exactly": true,
+  "missing_steps": [],
+  "n_missing": 0,
+  "extra_steps": [],
+  "n_extra": 0,
+  "n_selected": 101,
+  "selected_steps_first": 1500000,
+  "selected_steps_last": 2000000,
+  "selected_step_diffs": [
+   5000
+  ],
+  "selected_steps_missing": [],
+  "n_selected_out_of_window": 0,
+  "steps_just_outside": [
+   1495000
+  ],
+  "headers_seen": [
+   "ITEM: ATOMS id mol type q x y z xu yu zu"
+  ],
+  "header_exact": true,
+  "natoms_header_values": [
+   6500
+  ],
+  "anomalies": [],
+  "n_anomalies": 0,
+  "box_bounds_problems": [],
+  "nonfinite_coord_frames": [],
+  "atom_line_count_problems": [],
+  "atom_id_problem_frames": [],
+  "mol_range_problem_frames": [],
+  "n_columns_seen": [
+   10
+  ],
+  "edge_frames": [
+   {
+    "step": 5000,
+    "natoms": 6500,
+    "n_atom_lines": 6500
+   },
+   {
+    "step": 2000000,
+    "natoms": 6500,
+    "n_atom_lines": 6500
+   }
+  ],
+  "elapsed_s": 2.0
+ },
+ {
+  "source": "mappingff",
+  "system": "9_pva",
+  "traj": "C:\\schoolwork\\Projects\\mappingff\\validation\\longer\\mappingff\\9_pva\\dump.lammpstrj",
+  "n_frames": 400,
+  "first_step": 5000,
+  "last_step": 2000000,
+  "steps_strictly_increasing": true,
+  "n_duplicate_steps": 0,
+  "unique_step_diffs": [
+   5000
+  ],
+  "n_expected": 400,
+  "steps_match_expected_exactly": true,
+  "missing_steps": [],
+  "n_missing": 0,
+  "extra_steps": [],
+  "n_extra": 0,
+  "n_selected": 101,
+  "selected_steps_first": 1500000,
+  "selected_steps_last": 2000000,
+  "selected_step_diffs": [
+   5000
+  ],
+  "selected_steps_missing": [],
+  "n_selected_out_of_window": 0,
+  "steps_just_outside": [
+   1495000
+  ],
+  "headers_seen": [
+   "ITEM: ATOMS id mol type q x y z xu yu zu"
+  ],
+  "header_exact": true,
+  "natoms_header_values": [
+   6500
+  ],
+  "anomalies": [],
+  "n_anomalies": 0,
+  "box_bounds_problems": [],
+  "nonfinite_coord_frames": [],
+  "atom_line_count_problems": [],
+  "atom_id_problem_frames": [],
+  "mol_range_problem_frames": [],
+  "n_columns_seen": [
+   10
+  ],
+  "edge_frames": [
+   {
+    "step": 5000,
+    "natoms": 6500,
+    "n_atom_lines": 6500
+   },
+   {
+    "step": 2000000,
+    "natoms": 6500,
+    "n_atom_lines": 6500
+   }
+  ],
+  "elapsed_s": 2.0
+ }
+]

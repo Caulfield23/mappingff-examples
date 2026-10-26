@@ -1,0 +1,52 @@
+# ============================================================
+# Rerun existing trajectory to recover electrostatic energies
+# ============================================================
+
+# ---------- Files ----------
+variable datafile index filled.data
+variable trajfile index dump.lammpstrj
+
+# ============================================================
+# Force-field settings: identical to original simulation
+# ============================================================
+
+units           real
+atom_style      full
+boundary        p p p
+
+bond_style      harmonic
+angle_style     harmonic
+dihedral_style  opls
+improper_style  cvff
+
+special_bonds   lj/coul 0.0 0.0 0.5
+
+neighbor        2.0 bin
+neigh_modify    delay 0 every 1 check yes
+
+pair_style      lj/cut/coul/long 12.0
+pair_modify     mix geometric
+
+kspace_style    pppm 1.0e-4
+
+# Read charges, atom types, topology and force-field parameters
+read_data       ${datafile}
+
+# ============================================================
+# Energy output
+# ============================================================
+
+# Complete electrostatic energy:
+# E_elec = E_coul(real-space) + E_long(reciprocal-space)
+variable        Eelec equal ecoul+elong
+
+# Output every snapshot processed by rerun
+thermo          1
+thermo_style    custom step evdwl ecoul elong v_Eelec epair pe
+thermo_modify   norm no
+
+# ============================================================
+# Rerun trajectory
+# ============================================================
+
+rerun ${trajfile} first 1505000 last 2000000 dump x y z box yes timestep yes

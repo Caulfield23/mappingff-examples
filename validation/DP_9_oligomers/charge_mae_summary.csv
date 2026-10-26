@@ -1,0 +1,5 @@
+molecule,n_atoms,charge_mae_e,ref_total_charge_e,test_total_charge_e,geometry_rmsd_a,match_method,status
+9_peo,66,0.01819367,-0.00000000,0.00000200,1.3784,topology,ok
+9_pmma,137,0.03075496,-0.00000000,0.00002500,2.5907,topology,ok
+9_ps,146,0.00144279,-0.00040000,-0.00002300,0.0004,geometry,ok
+9_pva,65,0.02126974,0.00000000,-0.00002100,0.9407,topology,ok

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#SBATCH --job-name=eq_hi
+#SBATCH --partition=cpuXeon6458
+#SBATCH --nodes=1
+#SBATCH --ntasks=32
+#SBATCH --ntasks-per-node=32
+#SBATCH --cpus-per-task=1
+#SBATCH --output=%j.out
+#SBATCH --error=%j.err
+
+ulimit -s unlimited
+
+cd "$SLURM_SUBMIT_DIR"
+
+source $HOME/lammps_env.sh
+
+mpirun -np 32 lmp -in in.sim

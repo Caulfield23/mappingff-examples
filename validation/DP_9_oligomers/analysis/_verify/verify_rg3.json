@@ -1,0 +1,490 @@
+{
+ "ligpargen/9_peo": {
+  "system": "9_peo",
+  "source": "ligpargen",
+  "natoms": 6600,
+  "n_chain": 100,
+  "atoms_per_chain": 66,
+  "n_frames_total": 400,
+  "step_min": 5000,
+  "step_max": 2000000,
+  "frames_analyzed": 101,
+  "steps_first": 1500000,
+  "steps_last": 2000000,
+  "n_bad_mol_frames": 0,
+  "n_bad_id_frames": 0,
+  "R1_mass_all_mean": 5.918533674721775,
+  "R1_mean_of_frame_means": 5.918533674721776,
+  "R1_within_frame_std_mean": 0.9521781704648953,
+  "R1_temporal_std": 0.0135627128417756,
+  "R2_geom_all_mean": 6.098819303037701,
+  "R3_mass_heavy_mean": 5.8823336866519105,
+  "R4_geom_heavy_mean": 5.872256844523517,
+  "R5_mass_backbone_mean": 5.8823336866519105,
+  "R1_min": 3.6210131152666007,
+  "R1_max": 8.265814759325458,
+  "R3_min": 3.5629388107157673,
+  "R3_max": 8.244071838850301,
+  "e2e_backbone_mean": 12.977188646451225,
+  "e2e_backbone_max": 14.718339561241272,
+  "heavy_frac_outside_box_max": 0.1853030303030303,
+  "heavy_frac_outside_box_mean": 0.175064506450645,
+  "backbone_bonds": 27,
+  "backbone_natoms": 28,
+  "dmin_inter": [
+   [
+    2.4957167832372806,
+    1.3161204884052216
+   ],
+   [
+    2.520736094873874,
+    1.3180656660424772
+   ],
+   [
+    2.5251090951116515,
+    1.3278344851674848
+   ],
+   [
+    2.5355650198723017,
+    1.3141979797579988
+   ],
+   [
+    2.5768913558782405,
+    1.3126062204636981
+   ],
+   [
+    2.54870805115062,
+    1.3009271386207644
+   ]
+  ],
+  "contiguous_chains": true,
+  "mol_ids_consistent": true
+ },
+ "mappingff/9_peo": {
+  "system": "9_peo",
+  "source": "mappingff",
+  "natoms": 6600,
+  "n_chain": 100,
+  "atoms_per_chain": 66,
+  "n_frames_total": 400,
+  "step_min": 5000,
+  "step_max": 2000000,
+  "frames_analyzed": 101,
+  "steps_first": 1500000,
+  "steps_last": 2000000,
+  "n_bad_mol_frames": 0,
+  "n_bad_id_frames": 0,
+  "R1_mass_all_mean": 6.032709578331726,
+  "R1_mean_of_frame_means": 6.032709578331727,
+  "R1_within_frame_std_mean": 0.9702489017614567,
+  "R1_temporal_std": 0.014521528351109736,
+  "R2_geom_all_mean": 6.201670510073852,
+  "R3_mass_heavy_mean": 5.99845392728515,
+  "R4_geom_heavy_mean": 5.983829051266974,
+  "R5_mass_backbone_mean": 5.99845392728515,
+  "R1_min": 4.13707005325849,
+  "R1_max": 8.673033064636646,
+  "R3_min": 4.10089820193535,
+  "R3_max": 8.657114302219696,
+  "e2e_backbone_mean": 17.53959745772524,
+  "e2e_backbone_max": 18.742256652014984,
+  "heavy_frac_outside_box_max": 0.2501515151515151,
+  "heavy_frac_outside_box_mean": 0.23729522952295223,
+  "backbone_bonds": 27,
+  "backbone_natoms": 28,
+  "dmin_inter": [
+   [
+    2.5008887560225483,
+    1.3166030267320494
+   ],
+   [
+    2.425835977554961,
+    1.328816751851054
+   ],
+   [
+    2.473138229052315,
+    1.330257516423044
+   ],
+   [
+    2.566731820818062,
+    1.325406115120944
+   ],
+   [
+    2.5695175150210523,
+    1.3122353066428323
+   ],
+   [
+    2.549539054417487,
+    1.3214464877549894
+   ]
+  ],
+  "contiguous_chains": true,
+  "mol_ids_consistent": true
+ },
+ "ligpargen/9_pmma": {
+  "system": "9_pmma",
+  "source": "ligpargen",
+  "natoms": 13700,
+  "n_chain": 100,
+  "atoms_per_chain": 137,
+  "n_frames_total": 400,
+  "step_min": 5000,
+  "step_max": 2000000,
+  "frames_analyzed": 101,
+  "steps_first": 1500000,
+  "steps_last": 2000000,
+  "n_bad_mol_frames": 0,
+  "n_bad_id_frames": 0,
+  "R1_mass_all_mean": 6.4250541844312705,
+  "R1_mean_of_frame_means": 6.425054184431272,
+  "R1_within_frame_std_mean": 0.4244487252902065,
+  "R1_temporal_std": 0.00616693063273131,
+  "R2_geom_all_mean": 6.661832617993344,
+  "R3_mass_heavy_mean": 6.379543201454019,
+  "R4_geom_heavy_mean": 6.359354629231449,
+  "R5_mass_backbone_mean": 6.7025761855168655,
+  "R1_min": 5.09309744359357,
+  "R1_max": 7.302574488537459,
+  "R3_min": 5.041505932700169,
+  "R3_max": 7.2563763929831655,
+  "e2e_backbone_mean": 20.695593669147225,
+  "e2e_backbone_max": 21.2508712162584,
+  "heavy_frac_outside_box_max": 0.414014598540146,
+  "heavy_frac_outside_box_mean": 0.3833988581339887,
+  "backbone_bonds": 22,
+  "backbone_natoms": 23,
+  "dmin_inter": [
+   [
+    2.7905826362965733,
+    1.130084165007187
+   ],
+   [
+    2.7998399257814737,
+    1.1634394870383227
+   ],
+   [
+    2.749825129569796,
+    1.1408690108859918
+   ],
+   [
+    2.761986614739474,
+    1.1688887072771295
+   ],
+   [
+    2.6714124878012013,
+    1.160258673744784
+   ],
+   [
+    2.802155266932939,
+    1.1446666152203417
+   ]
+  ],
+  "contiguous_chains": true,
+  "mol_ids_consistent": true
+ },
+ "mappingff/9_pmma": {
+  "system": "9_pmma",
+  "source": "mappingff",
+  "natoms": 13700,
+  "n_chain": 100,
+  "atoms_per_chain": 137,
+  "n_frames_total": 400,
+  "step_min": 5000,
+  "step_max": 2000000,
+  "frames_analyzed": 101,
+  "steps_first": 1500000,
+  "steps_last": 2000000,
+  "n_bad_mol_frames": 0,
+  "n_bad_id_frames": 0,
+  "R1_mass_all_mean": 6.475941012796372,
+  "R1_mean_of_frame_means": 6.475941012796372,
+  "R1_within_frame_std_mean": 0.42730131169106106,
+  "R1_temporal_std": 0.00689657568651303,
+  "R2_geom_all_mean": 6.710999484002315,
+  "R3_mass_heavy_mean": 6.430819071579654,
+  "R4_geom_heavy_mean": 6.411299333130287,
+  "R5_mass_backbone_mean": 6.766665132192308,
+  "R1_min": 5.0238769598512905,
+  "R1_max": 7.405723180595438,
+  "R3_min": 4.970284659314536,
+  "R3_max": 7.3635468832702635,
+  "e2e_backbone_mean": 15.82798561091831,
+  "e2e_backbone_max": 17.8246346147684,
+  "heavy_frac_outside_box_max": 0.37525547445255475,
+  "heavy_frac_outside_box_mean": 0.3481975861819758,
+  "backbone_bonds": 22,
+  "backbone_natoms": 23,
+  "dmin_inter": [
+   [
+    2.791994058016602,
+    1.1553605238192974
+   ],
+   [
+    2.720291019358048,
+    1.1640743490001015
+   ],
+   [
+    2.7389690333215273,
+    1.1689704658373554
+   ],
+   [
+    2.7974336989462283,
+    1.155048596380257
+   ],
+   [
+    2.698878378141571,
+    1.1552831211439045
+   ],
+   [
+    2.7626250740916696,
+    1.150457361226402
+   ]
+  ],
+  "contiguous_chains": true,
+  "mol_ids_consistent": true
+ },
+ "ligpargen/9_ps": {
+  "system": "9_ps",
+  "source": "ligpargen",
+  "natoms": 14600,
+  "n_chain": 100,
+  "atoms_per_chain": 146,
+  "n_frames_total": 400,
+  "step_min": 5000,
+  "step_max": 2000000,
+  "frames_analyzed": 101,
+  "steps_first": 1500000,
+  "steps_last": 2000000,
+  "n_bad_mol_frames": 0,
+  "n_bad_id_frames": 0,
+  "R1_mass_all_mean": 6.361363625170877,
+  "R1_mean_of_frame_means": 6.361363625170877,
+  "R1_within_frame_std_mean": 0.3581959098339054,
+  "R1_temporal_std": 0.009305791417646906,
+  "R2_geom_all_mean": 6.514905908111587,
+  "R3_mass_heavy_mean": 6.332250535370164,
+  "R4_geom_heavy_mean": 6.332250535370163,
+  "R5_mass_backbone_mean": 6.663211927842892,
+  "R1_min": 5.522209056239586,
+  "R1_max": 7.695726595778367,
+  "R3_min": 5.491924312046701,
+  "R3_max": 7.669871251493656,
+  "e2e_backbone_mean": 9.779924584949907,
+  "e2e_backbone_max": 11.361018125590677,
+  "heavy_frac_outside_box_max": 0.4228767123287671,
+  "heavy_frac_outside_box_mean": 0.39300149193001493,
+  "backbone_bonds": 28,
+  "backbone_natoms": 29,
+  "dmin_inter": [
+   [
+    2.14602410284694,
+    1.3234016510492894
+   ],
+   [
+    2.136464008589891,
+    1.3148502043959214
+   ],
+   [
+    2.151951007806639,
+    1.3263190189392569
+   ],
+   [
+    2.1503389058471805,
+    1.3139039881208991
+   ],
+   [
+    2.1471463061468374,
+    1.301050490949525
+   ],
+   [
+    2.1515923638087133,
+    1.323491205108675
+   ]
+  ],
+  "contiguous_chains": true,
+  "mol_ids_consistent": true
+ },
+ "mappingff/9_ps": {
+  "system": "9_ps",
+  "source": "mappingff",
+  "natoms": 14600,
+  "n_chain": 100,
+  "atoms_per_chain": 146,
+  "n_frames_total": 400,
+  "step_min": 5000,
+  "step_max": 2000000,
+  "frames_analyzed": 101,
+  "steps_first": 1500000,
+  "steps_last": 2000000,
+  "n_bad_mol_frames": 0,
+  "n_bad_id_frames": 0,
+  "R1_mass_all_mean": 6.365809747963994,
+  "R1_mean_of_frame_means": 6.365809747963995,
+  "R1_within_frame_std_mean": 0.44786843416646577,
+  "R1_temporal_std": 0.009656821309577233,
+  "R2_geom_all_mean": 6.518595778937258,
+  "R3_mass_heavy_mean": 6.3368455638759125,
+  "R4_geom_heavy_mean": 6.336845563875911,
+  "R5_mass_backbone_mean": 6.64867293028086,
+  "R1_min": 5.385866015800884,
+  "R1_max": 7.9294868239648535,
+  "R3_min": 5.351325256706169,
+  "R3_max": 7.900418449937735,
+  "e2e_backbone_mean": 11.322424411352737,
+  "e2e_backbone_max": 12.030291102047359,
+  "heavy_frac_outside_box_max": 0.39184931506849313,
+  "heavy_frac_outside_box_mean": 0.3676034178760341,
+  "backbone_bonds": 28,
+  "backbone_natoms": 29,
+  "dmin_inter": [
+   [
+    2.1466713628313046,
+    1.3279203063437168
+   ],
+   [
+    2.146809339461701,
+    1.3179919005820875
+   ],
+   [
+    2.1425634669712816,
+    1.3109443428307703
+   ],
+   [
+    2.131090063793642,
+    1.3185203601006732
+   ],
+   [
+    2.1423403417758005,
+    1.315545909499176
+   ],
+   [
+    2.146052364226002,
+    1.3185079559866155
+   ]
+  ],
+  "contiguous_chains": true,
+  "mol_ids_consistent": true
+ },
+ "ligpargen/9_pva": {
+  "system": "9_pva",
+  "source": "ligpargen",
+  "natoms": 6500,
+  "n_chain": 100,
+  "atoms_per_chain": 65,
+  "n_frames_total": 400,
+  "step_min": 5000,
+  "step_max": 2000000,
+  "frames_analyzed": 101,
+  "steps_first": 1500000,
+  "steps_last": 2000000,
+  "n_bad_mol_frames": 0,
+  "n_bad_id_frames": 0,
+  "R1_mass_all_mean": 6.1621280647170735,
+  "R1_mean_of_frame_means": 6.1621280647170735,
+  "R1_within_frame_std_mean": 0.5214161901214391,
+  "R1_temporal_std": 0.007750949618013046,
+  "R2_geom_all_mean": 6.2810803022053365,
+  "R3_mass_heavy_mean": 6.133848845493554,
+  "R4_geom_heavy_mean": 6.095295286438675,
+  "R5_mass_backbone_mean": 6.212791363450341,
+  "R1_min": 4.016757161762052,
+  "R1_max": 7.034154675322494,
+  "R3_min": 3.9938696287000854,
+  "R3_max": 6.989077826794959,
+  "e2e_backbone_mean": 17.52082048883756,
+  "e2e_backbone_max": 18.03263339531972,
+  "heavy_frac_outside_box_max": 0.2953846153846154,
+  "heavy_frac_outside_box_mean": 0.26642193450114243,
+  "backbone_bonds": 18,
+  "backbone_natoms": 19,
+  "dmin_inter": [
+   [
+    2.4623296083181088,
+    1.322092137485134
+   ],
+   [
+    2.510573514159663,
+    1.3346579187192473
+   ],
+   [
+    2.51010518703898,
+    1.2959680165806553
+   ],
+   [
+    2.4982322179582206,
+    1.3095338139964166
+   ],
+   [
+    2.512942070561914,
+    1.328783545202154
+   ],
+   [
+    2.528159848585529,
+    1.3162013105904442
+   ]
+  ],
+  "contiguous_chains": true,
+  "mol_ids_consistent": true
+ },
+ "mappingff/9_pva": {
+  "system": "9_pva",
+  "source": "mappingff",
+  "natoms": 6500,
+  "n_chain": 100,
+  "atoms_per_chain": 65,
+  "n_frames_total": 400,
+  "step_min": 5000,
+  "step_max": 2000000,
+  "frames_analyzed": 101,
+  "steps_first": 1500000,
+  "steps_last": 2000000,
+  "n_bad_mol_frames": 0,
+  "n_bad_id_frames": 0,
+  "R1_mass_all_mean": 6.618876328573044,
+  "R1_mean_of_frame_means": 6.6188763285730445,
+  "R1_within_frame_std_mean": 0.48425569705818367,
+  "R1_temporal_std": 0.006937192591066747,
+  "R2_geom_all_mean": 6.776207450979393,
+  "R3_mass_heavy_mean": 6.58317989440869,
+  "R4_geom_heavy_mean": 6.554601169551505,
+  "R5_mass_backbone_mean": 6.741840355612409,
+  "R1_min": 4.052265566721516,
+  "R1_max": 7.075410638832938,
+  "R3_min": 4.027000166179084,
+  "R3_max": 7.041670882300314,
+  "e2e_backbone_mean": 18.10532135177591,
+  "e2e_backbone_max": 18.928354289530827,
+  "heavy_frac_outside_box_max": 0.1823076923076923,
+  "heavy_frac_outside_box_mean": 0.1727875095201828,
+  "backbone_bonds": 18,
+  "backbone_natoms": 19,
+  "dmin_inter": [
+   [
+    2.5768534757936954,
+    1.3288693013234978
+   ],
+   [
+    2.591352552239855,
+    1.3269328016143087
+   ],
+   [
+    2.5743800399319423,
+    1.315180983743305
+   ],
+   [
+    2.5170077692785084,
+    1.3149196515376897
+   ],
+   [
+    2.573344471694378,
+    1.2963754510171805
+   ],
+   [
+    2.5262674620870995,
+    1.3121591481219061
+   ]
+  ],
+  "contiguous_chains": true,
+  "mol_ids_consistent": true
+ }
+}
